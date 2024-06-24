@@ -45,11 +45,17 @@
     "默认最新微博",
     true
   );
+  console.log("%c Line:41 🥥 timelineDefault", "color:#42b983", timelineDefault);
   if (timelineDefault.value) {
-    const element = document.querySelector('[role="link"][title="最新微博"]');
-    if (element) {
-      element.click();
-    }
+    const clickElement = () => {
+      const element = document.querySelector('[role="link"][title="最新微博"]');
+      if (element) {
+        element.click();
+      } else {
+        setTimeout(clickElement, 1e3);
+      }
+    };
+    clickElement();
   }
 
 })();
