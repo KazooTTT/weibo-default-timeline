@@ -4,3 +4,12 @@
 
 演示：
 ![alt text](demo.gif)
+
+[脚本安装地址](https://greasyfork.org/zh-CN/scripts/498729-%E5%BE%AE%E5%8D%9A%E9%BB%98%E8%AE%A4%E6%8C%89%E7%85%A7%E6%9C%80%E6%96%B0%E6%97%B6%E9%97%B4%E6%8E%92%E5%BA%8F)
+
+[源代码地址](https://github.com/KazooTTT/weibo-default-timeline)
+
+## 参考
+
+本项目基于 vite-plugin-monkey 开发  
+菜单切换（useOption）参考了 antfu 的代码
