@@ -1,4 +1,5 @@
 # 微博默认按照最新时间排序
+![cover](https://github.com/KazooTTT/weibo-default-timeline/assets/31075337/41b23ee4-6fbf-4a59-9a3e-41560351b621)
 
 目前微博会默认按照推荐顺序排序，如果你想要默认按照时间顺序排序的话，可以使用这个油猴脚本。
 
