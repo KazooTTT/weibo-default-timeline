@@ -14,6 +14,7 @@ export default defineConfig({
         namespace: 'npm/vite-plugin-monkey',
         match: ['https://weibo.com/**'],
         version: '0.0.1',
+        license: 'MIT',
       },
     }),
   ],

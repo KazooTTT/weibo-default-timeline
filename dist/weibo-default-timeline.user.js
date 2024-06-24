@@ -4,6 +4,7 @@
 // @version      0.0.1
 // @author       kazoottt
 // @description  将网页版的微博自动设置为最新微博（按时间顺序）浏览
+// @license      MIT
 // @icon         https://weibo.com/favicon.ico
 // @match        https://weibo.com/**
 // @grant        GM_getValue
