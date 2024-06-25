@@ -13,7 +13,7 @@ export default defineConfig({
         icon: 'https://weibo.com/favicon.ico',
         namespace: 'npm/vite-plugin-monkey',
         match: ['https://weibo.com/**'],
-        version: '0.0.1',
+        version: '0.0.2',
         license: 'MIT',
       },
     }),
