@@ -37,14 +37,7 @@ const timelineDefault = useOption(
 )
 
 // 打一个补丁，只精准命中: https://weibo.com/
-if (location.href === "https://weibo.com/" || location.href === "https://weibo.com") {
-  timelineDefault.value = true;
-}
-else {
-  timelineDefault.value = false;
-}
-
-if (timelineDefault.value) {
+if (timelineDefault.value && (location.href === "https://weibo.com/" || location.href === "https://weibo.com")) {
   // 定义一个函数，用于定时获取元素并执行点击操作
   const clickElement = () => {
     // 通过title='最新微博'这个自定义的属性来会找到最新微博这个tab的元素
@@ -60,5 +53,4 @@ if (timelineDefault.value) {
 
   // 调用clickElement函数，开始定时获取元素并执行点击操作
   clickElement();
-
 }
