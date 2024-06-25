@@ -45,7 +45,11 @@
     "默认最新微博",
     true
   );
-  console.log("%c Line:41 🥥 timelineDefault", "color:#42b983", timelineDefault);
+  if (location.href === "https://weibo.com/" || location.href === "https://weibo.com") {
+    timelineDefault.value = true;
+  } else {
+    timelineDefault.value = false;
+  }
   if (timelineDefault.value) {
     const clickElement = () => {
       const element = document.querySelector('[role="link"][title="最新微博"]');

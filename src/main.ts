@@ -36,7 +36,13 @@ const timelineDefault = useOption(
   true
 )
 
-console.log("%c Line:41 🥥 timelineDefault", "color:#42b983", timelineDefault);
+// 打一个补丁，只精准命中: https://weibo.com/
+if (location.href === "https://weibo.com/" || location.href === "https://weibo.com") {
+  timelineDefault.value = true;
+}
+else {
+  timelineDefault.value = false;
+}
 
 if (timelineDefault.value) {
   // 定义一个函数，用于定时获取元素并执行点击操作
